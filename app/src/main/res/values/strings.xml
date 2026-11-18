@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Todoozi</string>
+
+    <!-- Tab & menu -->
+    <string name="tab_notes">Catatan</string>
+    <string name="tab_tasks">Tugas</string>
+    <string name="tab_profile">Profil</string>
+    <string name="action_search">Cari</string>
+    <string name="action_list">Tampilan List</string>
+    <string name="action_grid">Tampilan Grid</string>
+    <string name="search_hint">Cari judul atau isi…</string>
+    <string name="greeting">Halo, %1$s</string>
+    <string name="cd_add">Tambah catatan atau tugas</string>
+
+    <!-- Login -->
+    <string name="login_title">Selamat datang kembali</string>
+    <string name="login_subtitle">Masuk untuk melanjutkan catatan dan tugasmu</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Konfirmasi password</string>
+    <string name="btn_login">Masuk</string>
+    <string name="to_register">Belum punya akun? <b>Daftar di sini</b></string>
+    <string name="cd_logo">Logo Todoozi</string>
+    <string name="msg_login_success">Selamat datang, %1$s!</string>
+    <string name="msg_login_failed">Username atau password salah</string>
+
+    <!-- Register -->
+    <string name="register_title">Buat akun baru</string>
+    <string name="register_subtitle">Daftar gratis dan mulai atur harimu</string>
+    <string name="btn_register">Daftar</string>
+    <string name="to_login">Sudah punya akun? <b>Masuk</b></string>
+    <string name="msg_register_success">Registrasi berhasil, silakan masuk</string>
+    <string name="msg_username_taken">Username sudah terdaftar</string>
+
+    <!-- Validasi -->
+    <string name="err_required">Wajib diisi</string>
+    <string name="err_password_short">Password minimal 6 karakter</string>
+    <string name="err_password_mismatch">Konfirmasi password tidak cocok</string>
+    <string name="err_username_short">Username minimal 3 karakter</string>
+    <string name="err_title_required">Judul tidak boleh kosong</string>
+
+    <!-- Daftar -->
+    <string name="header_notes">Catatan</string>
+    <string name="header_tasks">Tugas</string>
+    <string name="subtitle_notes">%1$d catatan</string>
+    <string name="subtitle_tasks">%1$d tugas · %2$d selesai</string>
+    <string name="empty_notes_title">Belum ada catatan</string>
+    <string name="empty_notes_hint">Ketuk tombol + untuk menulis catatan pertamamu.</string>
+    <string name="empty_tasks_title">Belum ada tugas</string>
+    <string name="empty_tasks_hint">Ketuk tombol + untuk menambah tugas dan tenggatnya.</string>
+    <string name="empty_search_title">Tidak ditemukan</string>
+    <string name="empty_search_hint">Coba kata kunci lain.</string>
+    <string name="tag_note">Catatan</string>
+    <string name="tag_task">Tugas</string>
+    <string name="due_format">Tenggat %1$s</string>
+    <string name="due_none">Tanpa tenggat</string>
+    <string name="due_overdue">Terlambat · %1$s</string>
+    <string name="msg_saved">Berhasil disimpan</string>
+    <string name="msg_updated">Perubahan disimpan</string>
+    <string name="msg_deleted">Item dihapus</string>
+    <string name="undo">Batalkan</string>
+
+    <!-- Editor -->
+    <string name="sheet_add_note">Catatan baru</string>
+    <string name="sheet_edit_note">Edit catatan</string>
+    <string name="sheet_add_task">Tugas baru</string>
+    <string name="sheet_edit_task">Edit tugas</string>
+    <string name="hint_title">Judul</string>
+    <string name="hint_due_date">Tenggat (opsional)</string>
+    <string name="hint_content">Isi / deskripsi</string>
+    <string name="pick_due_date">Pilih tanggal tenggat</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_delete">Hapus</string>
+
+    <!-- Profil -->
+    <string name="stat_notes">Catatan</string>
+    <string name="stat_tasks">Tugas</string>
+    <string name="stat_done">Selesai</string>
+    <string name="profile_mode_local">Mode lokal · data tersimpan di perangkat</string>
+    <string name="profile_mode_server">Tersinkron dengan server</string>
+    <string name="btn_logout">Keluar</string>
+    <string name="logout_title">Keluar dari akun?</string>
+    <string name="logout_message">Data tetap tersimpan, kamu bisa masuk kembali kapan saja.</string>
+    <string name="cd_avatar">Foto profil</string>
+    <string name="msg_session_expired">Sesi berakhir, silakan masuk lagi</string>
+
+    <!-- Jaringan -->
+    <string name="err_network">Tidak dapat terhubung ke server</string>
+    <string name="err_unknown">Terjadi kesalahan, coba lagi</string>
+    <string name="msg_offline_local">Server tidak terjangkau, menampilkan data lokal</string>
+</resources>

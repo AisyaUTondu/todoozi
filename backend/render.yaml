@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: todoozi-api
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: AVATAR_URL_TEMPLATE
+        value: https://ui-avatars.com/api/?name={username}&background=6C4FD1&color=ffffff&size=256&format=png

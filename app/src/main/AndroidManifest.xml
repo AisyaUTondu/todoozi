@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Modul 5: akses internet untuk memanggil REST API -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+        usesCleartextTraffic=true hanya agar server lokal (http://10.0.2.2:3000) bisa diakses saat
+        pengembangan. Hapus atribut ini dan pakai HTTPS ketika server sudah online.
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Todoozi"
+        android:usesCleartextTraffic="true">
+
+        <!-- 1. LoginActivity -->
+        <activity
+            android:name=".view.LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 2. RegisterActivity -->
+        <activity
+            android:name=".view.RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 3. MainActivity -->
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

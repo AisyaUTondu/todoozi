@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palet Todoozi (mode gelap) -->
+    <color name="md_primary">#CDBDFF</color>
+    <color name="md_on_primary">#34218A</color>
+    <color name="md_primary_container">#4A3AA0</color>
+    <color name="md_on_primary_container">#E8DFFF</color>
+    <color name="md_secondary">#CCC2DC</color>
+    <color name="md_secondary_container">#4A4458</color>
+    <color name="md_on_secondary_container">#E8DEF8</color>
+    <color name="md_tertiary">#7FD8CE</color>
+    <color name="md_tertiary_container">#00504A</color>
+    <color name="md_background">#14111C</color>
+    <color name="md_surface">#1D1A27</color>
+    <color name="md_surface_variant">#2A2638</color>
+    <color name="md_on_surface">#E8E3F2</color>
+    <color name="md_on_surface_variant">#B4AEC8</color>
+    <color name="md_outline">#8E88A5</color>
+    <color name="md_error">#FFB4AB</color>
+    <color name="md_on_error">#561E19</color>
+    <color name="md_error_container">#5C1F1F</color>
+
+    <color name="card_stroke">#342F45</color>
+    <color name="tag_note_bg">#3A2F6B</color>
+    <color name="tag_note_text">#D6C9FF</color>
+    <color name="tag_task_bg">#4A3A12</color>
+    <color name="tag_task_text">#FFD98C</color>
+    <color name="due_overdue">#FFB4AB</color>
+    <color name="due_normal">#B4AEC8</color>
+    <color name="profile_gradient_start">#5A3CBE</color>
+    <color name="profile_gradient_end">#34218A</color>
+</resources>
